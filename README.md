@@ -24,6 +24,8 @@ $ npm install angular-google-plus
 #### Usage
 
 ```js
+require("angular-google-plus") //If you are working with npm & browerify
+
 var app = angular.module('app', ['googleplus']);
 
 app.config(['GooglePlusProvider', function(GooglePlusProvider) {

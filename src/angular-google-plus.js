@@ -51,7 +51,7 @@ angular.module('googleplus', []).
      * @default 'https://www.googleapis.com/auth/plus.login'
      * @type {Boolean}
      */
-    options.scopes = 'https://www.googleapis.com/auth/plus.login';
+    options.scopes = 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email';
 
     this.setScopes = function(scopes) {
       options.scopes = scopes;

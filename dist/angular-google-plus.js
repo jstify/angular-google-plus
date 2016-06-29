@@ -1,4 +1,4 @@
-/*! angular-google-plus - v0.1.3 2015-08-27 */
+/*! angular-google-plus - v0.1.3 2016-06-29 */
 /**
  * googleplus module
  */
@@ -38,7 +38,7 @@ angular.module("googleplus", []).provider("GooglePlus", [ function() {
      * @default 'https://www.googleapis.com/auth/plus.login'
      * @type {Boolean}
      */
-    a.scopes = "https://www.googleapis.com/auth/plus.login";
+    a.scopes = "https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email";
     this.setScopes = function(b) {
         a.scopes = b;
         return this;
